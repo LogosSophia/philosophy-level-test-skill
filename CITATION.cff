@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite it as below."
+title: "Philosophy Level Test Skill"
+authors:
+  - family-names: "LogosSophia"
+    given-names: ""
+version: "0.1.0"
+date-released: "2026-06-24"
+url: "https://github.com/LogosSophia/philosophy-level-test-skill"
+repository-code: "https://github.com/LogosSophia/philosophy-level-test-skill"
+abstract: "A philosophical stress-test skill for evaluating conceptual cost, object qualification, invalid speaking positions, scale drift, illegal synthesis, pseudo-depth, and genuine problem awareness in philosophical writing."
+keywords:
+  - philosophy
+  - prompt-engineering
+  - critical-thinking
+  - pseudo-depth
+  - illegal-synthesis
+  - meta-logic
+license: "CC-BY-NC-SA-4.0"
