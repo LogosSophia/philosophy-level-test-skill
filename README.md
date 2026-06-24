@@ -19,6 +19,20 @@ It does not test your degree, your knowledge volume, or how many philosophers yo
 
 ---
 
+## 快速入口 / Quick Links
+
+- [核心 Skill / Core Skill](./philosophy_level_test.skill.md)
+- [快速开始 / Quickstart](./QUICKSTART.md)
+- [Prompt 模板 / Prompt Templates](./prompt_templates.md)
+- [评分说明 / Scoring Guide](./scoring.md)
+- [术语表 / Glossary](./glossary.md)
+- [示例 / Examples](./examples.md)
+- [路线图 / Roadmap](./ROADMAP.md)
+- [贡献指南 / Contributing](./CONTRIBUTING.md)
+- [授权说明 / License](./LICENSE.md)
+
+---
+
 ## 它会输出什么？ / What does it output?
 
 - 哲学水平评分 / Philosophy score
@@ -96,9 +110,21 @@ Copy the content of [`philosophy_level_test.skill.md`](./philosophy_level_test.s
 philosophy-level-test-skill/
 ├── README.md
 ├── philosophy_level_test.skill.md
+├── QUICKSTART.md
+├── prompt_templates.md
 ├── scoring.md
 ├── glossary.md
-└── examples.md
+├── examples.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── CITATION.cff
+├── LICENSE.md
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    │   ├── bad-output.md
+    │   └── rule-suggestion.md
+    └── pull_request_template.md
 ```
 
 ---
@@ -113,6 +139,27 @@ philosophy-level-test-skill/
 - 诗歌解读 / Poetic interpretations
 - 自创体系 / Self-created theoretical systems
 - 宏大叙事 / Grand narratives
+- AI 生成哲学段落 / AI-generated philosophical text
+
+---
+
+## 版本 / Version
+
+当前版本：v0.1.0
+
+Current version: v0.1.0
+
+详见 [`CHANGELOG.md`](./CHANGELOG.md)。
+
+See [`CHANGELOG.md`](./CHANGELOG.md).
+
+---
+
+## 授权 / License
+
+本项目暂定采用 CC BY-NC-SA 4.0 授权。详见 [`LICENSE.md`](./LICENSE.md)。
+
+This project is provisionally released under CC BY-NC-SA 4.0. See [`LICENSE.md`](./LICENSE.md).
 
 ---
 
