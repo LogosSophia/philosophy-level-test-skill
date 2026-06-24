@@ -1,21 +1,21 @@
 # 哲学水平测试.skill
 # Philosophy Level Test Skill
 
-你真的在思考哲学，还是只是在堆砌高级词汇？
+你真的在思考哲学，还是只是在用强词偷渡论证？
 
-Are you really thinking philosophically, or just stacking impressive words?
+Are you really thinking philosophically, or smuggling arguments through strong words?
 
-输入一段哲学观点、人生感悟、理论草稿、诗性表达或宏大判断，本 skill 会对它进行哲学压力测试：检查它是否存在对象未成立、位置非法、位置滑坡、概念漂移、本质滑坡、尺度漂移、非法综合、伪整体、隐喻冒充本体、情绪代替论证和伪深刻等问题。
+输入一段哲学观点、人生感悟、理论草稿、诗性表达或宏大判断，本 skill 会对它进行哲学压力测试：检查它是否存在对象未成立、位置非法、位置滑坡、概念漂移、逻辑偷渡、尺度漂移、非法综合、伪整体、隐喻冒充本体、情绪代替论证等问题。
 
-Input a philosophical idea, life reflection, theoretical draft, poetic expression, or grand claim. This skill runs a philosophical stress test on it, checking for unqualified objects, invalid speaking positions, position drift, concept drift, essence slide, scale drift, illegal synthesis, pseudo-wholes, metaphor mistaken for ontology, emotion replacing argument, and pseudo-depth.
+Input a philosophical idea, life reflection, theoretical draft, poetic expression, or grand claim. This skill runs a philosophical stress test on it, checking for unqualified objects, invalid speaking positions, position drift, concept drift, logic smuggling, scale drift, illegal synthesis, pseudo-wholes, metaphor mistaken for ontology, and emotion replacing argument.
 
 它测试的不是学历，不是知识量，也不是你读过多少哲学家，而是一段思考能不能承担自己的概念成本。
 
 It does not test your degree, your knowledge volume, or how many philosophers you have read. It tests whether a piece of thought can bear the conceptual cost of what it says.
 
-> 输入一段你的哲学观点，看看它是思想，还是伪深刻。
+> 输入一段你的哲学观点，看看它是思想，还是逻辑偷渡。
 >
-> Input your philosophical idea and see whether it is real thought or pseudo-depth.
+> Input your philosophical idea and see whether it is real thought or logic smuggling.
 
 ---
 
@@ -38,12 +38,15 @@ It does not test your degree, your knowledge volume, or how many philosophers yo
 
 - 哲学水平评分 / Philosophy score
 - 思想段位 / Thought level
-- 伪深刻指数 / Pseudo-depth index
 - 核心命题 / Core thesis
+- 核心概念 / Core concepts
 - 最强之处 / Strongest point
 - 最大漏洞 / Major flaw
+- 具体审查 / Specific checks
 - 致命追问 / Fatal questions
 - 修改建议 / Revision advice
+
+> v0.3 起不再输出“伪深刻指数”。伪深刻仍可作为漏洞类型，但不再量化。核心审查转向：概念成本、对象资格、说话位置、论证链和逻辑偷渡。
 
 ---
 
@@ -64,7 +67,6 @@ Copy the content of [`philosophy_level_test.skill.md`](./philosophy_level_test.s
 ```text
 哲学水平评分：48/100
 段位：有问题意识的思考者
-伪深刻指数：55/100
 最大漏洞：概念偷换、尺度漂移、结论冒充前提
 致命追问：如果自由是完全没有限制，那么它如何区别于虚无？
 ```
@@ -85,8 +87,8 @@ Copy the content of [`philosophy_level_test.skill.md`](./philosophy_level_test.s
 4. **概念漂移 / Concept Drift**  
    同一个词在文本中前后换了意思，但作者没有承认自己换了意思。
 
-5. **本质滑坡 / Essence Slide**  
-   用“本质”“归根到底”“说到底”等词，把本来需要论证的层级转换、因果转换、对象转换直接跳过。
+5. **逻辑偷渡 / Logic Smuggling**  
+   用“本质”“必然”“归根到底”“完全会”“终将”等强词，把本来需要正面论证的过渡直接跳过去。
 
 6. **尺度漂移 / Scale Drift**  
    从小范围判断突然跳到大范围结论，中间没有说明放大机制。
@@ -100,8 +102,8 @@ Copy the content of [`philosophy_level_test.skill.md`](./philosophy_level_test.s
 9. **隐喻冒充本体 / Metaphor Mistaken for Ontology**  
    本来只是比喻、诗性表达或情绪图像，却被当成真实结构来论证。
 
-10. **伪深刻 / Pseudo-Depth**  
-    用宏大词汇、神秘气氛或矛盾包装制造深度感，但没有承担概念成本。
+10. **情绪代替论证 / Emotion Replacing Argument**  
+    用强烈感受、姿态或宣言代替理由。
 
 ---
 
@@ -147,9 +149,9 @@ philosophy-level-test-skill/
 
 ## 版本 / Version
 
-当前版本：v0.2.0
+当前版本：v0.3.0
 
-Current version: v0.2.0
+Current version: v0.3.0
 
 详见 [`CHANGELOG.md`](./CHANGELOG.md)。
 
